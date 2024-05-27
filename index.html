@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Survey Form</h1>
+    <p id="description">Feel free to answer the Questions below based on your  own experiance and Opinion.If you are not Convenient In answering an particular Question Skip it!</p>
+    </div>
+    
+    <div id="main">
+        <form id="survey-form">
+
+        <div id="input-fields">
+            <label id="name-label"><b>Your Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            
+            <label id="email-label"><b>Your Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="name-label"><b>Your Phone number :</b></label>
+            <input id="name" type="number" name="number" class="form" required placeholder="9999999999">
+            <br>
+            
+         </div>
+         <br> 
+
+         <div id="dropdown-div"><br>
+            <label><strong>Where do you live: </strong></label><br>
+
+             <select  name="city" class="form">
+                <option value="Select">------------Select------------</option>
+                <option value="Pune">Pune</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Other">Other</option>
+                
+            </select>
+                <br><br>
+        <div>
+              <fieldset>
+              <legend><b>Age </legend>
+              <p>
+                  15-20 <input type="radio" name="Age"  required>
+                  21-30 <input type="radio" name="Age"  required>
+                  31-40 <input type="radio" name="Age"  required>
+                  41-50 <input type="radio" name="Age"  required>
+                  prefer not say <input type="radio" name="Age"  required>
+              </p>
+              </fieldset>
+          
+         </div>
+         
+      <div><br>
+            <label><b>How would you rate your profienciecy in coding ?</b></label><br>
+            <input type="radio" name="lvl" value="Beginner"  checked> Beginner<br>
+            <input type="radio" name="lvl" value=" Intermediate" > Intermediate<br>
+            <input type="radio" name="lvl" value="Advance"> Advance<br>
+      </div>
+
+      <div ><br>
+            <label id="os-label"><b>Have you Ever Appeared in any coding context? </b></label><br>
+            <input type="radio" name="os1" value="Yes"  > Yes<br>
+            <input type="radio" name="os1" value=" No" >No<br>
+          </div>
+          <br>
+          <br>  
+      <div id="comments-label">  
+        <label>Discuss what drives your passion for coding and outline your aspirations in the field :</label><br>
+        <textarea style=" height: 120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br>
+        
+      
+
+      <br>
+        <label >What are some of the challenges you face while coding?</label><br>
+        <textarea style=" height: 120px;"class="form" placeholder="Please feel free to write a review..."></textarea><br>
+        
+       <br>
+        <label>Please list the data structures you have a strong understanding of .</label><br>
+        <textarea style=" height: 80px;" class="form" placeholder="Please feel free to write a review..."></textarea>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input id="submit" type="submit"  class="form">
+    </div>
+        </form>
+    </div>
+
+</body>
+</html>
